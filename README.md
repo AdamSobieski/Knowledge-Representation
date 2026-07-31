@@ -6,7 +6,7 @@ Drawing inspiration from previous general-purpose knowledge-representation forma
 
 ## A Quick Example
 
-Expanding on some XAML/XOML concepts, envisioning a related knowledge-representation technology which binds to [JavaScript](https://en.wikipedia.org/wiki/JavaScript) while interoperable with the [Shadow DOM](https://en.wikipedia.org/wiki/Shadow_DOM) and [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly), the following example showcases a number of markup-related techniques.
+Expanding on some XAML/XOML concepts, envisioning a related knowledge-representation technology which binds to [JavaScript](https://en.wikipedia.org/wiki/JavaScript) while interoperable with the [Shadow DOM](https://en.wikipedia.org/wiki/Shadow_DOM) and [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly), the following quick example showcases a number of markup-related techniques.
 
 ```xml
 <rectangle width="100" height="100" xmlns:x="http://tbd.org/2026/next" xmlns="using:rectangle">
