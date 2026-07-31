@@ -74,6 +74,10 @@ The following example sketch intends to show that one could readily represent wo
 </sequence>
 ```
 
-## XML Inclusions and Parameterized Templates
+## XML Inclusions
+
+Coming soon.
+
+## Parameterized Templates
 
 Coming soon.
