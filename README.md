@@ -68,8 +68,12 @@ The following example sketch intends to show that one could readily represent wo
     </executecode>
   <codeactivity>
   <codeactivity x:name="process-activity" xmlns="using:codeactivity">
-    <execute x:attribute="true" x:type="text/javascript" x:select="onProcess" x:src="workflow-123.js" />
+    <execute x:attribute="true" x:type="text/javascript" x:select="onProcess" x:src="workflow.js" />
   </codeactivity>
   <codeactivity x:name="end-activity" execute="javascript:onEnd" xmlns="using:codeactivity" />
 </sequence>
 ```
+
+## XML Inclusions and Parameterized Templates
+
+Coming soon.
