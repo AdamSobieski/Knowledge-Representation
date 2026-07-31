@@ -6,29 +6,29 @@ Drawing inspiration from previous general-purpose knowledge-representation forma
 
 ## A Quick Example
 
-For a quick example, expanding on some XUL/XAML/XOML concepts, envisioning a related technology which binds to JavaScript while interoperable with the [Shadow DOM](https://en.wikipedia.org/wiki/Shadow_DOM) and [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly):
+For a quick example, expanding on some XUL/XAML/XOML concepts, envisioning a related knowledge-representation technology that binds to JavaScript while interoperable with the [Shadow DOM](https://en.wikipedia.org/wiki/Shadow_DOM) and [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly):
 
 ```xml
-<rectangle width="100" height="100" xmlns:next="http://tbd.org/2026/next" xmlns="using:rectangle">
-  <next:class next:attribute="true" next:type="text/javascript" next:select="rectangle" next:src="shapes.js" />
-  <fill next:attribute="true">
+<rectangle width="100" height="100" xmlns:x="http://tbd.org/2026/next" xmlns="using:rectangle">
+  <x:class x:attribute="true" x:type="text/javascript" x:select="rectangle" x:src="shapes.js" />
+  <fill x:attribute="true">
     <imagebrush xmlns="using:imagebrush">
-      <next:class next:attribute="true" next:type="text/javascript" next:select="imagebrush" next:src="brushes.js" />
-      <src next:attribute="true" next:type="multipart/alternative">
-        <next:multipart>
-          <next:part next:type="image/png" next:src="file.png" />
-          <next:part next:type="image/jpeg" next:src="file.jpeg" />
-        </next:multipart>
+      <x:class x:attribute="true" x:type="text/javascript" x:select="imagebrush" x:src="brushes.js" />
+      <src x:attribute="true" x:type="multipart/alternative">
+        <x:multipart>
+          <x:part x:type="image/png" x:src="file.png" />
+          <x:part x:type="image/jpeg" x:src="file.jpeg" />
+        </x:multipart>
       </src>
     </imagebrush>
   </fill>
-  <content next:attribute="true">
-    <next:value next:attribute="true" next:type="multipart/alternative">
-      <next:multipart>
-        <next:part next:lang="en" next:type="text/plain">Hello</next:part>
-        <next:part next:lang="fr" next:type="text/plain">Bonjour</next:part>
-      </next:multipart>
-    </next:value>
+  <content x:attribute="true">
+    <x:value x:attribute="true" x:type="multipart/alternative">
+      <x:multipart>
+        <x:part x:lang="en" x:type="text/plain">Hello</x:part>
+        <x:part x:lang="fr" x:type="text/plain">Bonjour</x:part>
+      </x:multipart>
+    </x:value>
   </content>
 </rectangle>
 ```
