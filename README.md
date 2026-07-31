@@ -50,3 +50,7 @@ Expanding on some XAML/XOML concepts, envisioning a related knowledge-representa
 ```
 
 Above, the `x:attribute` attribute signals that a child element is an _extended attribute_ of its parent element. While simple attributes allow only text-string values, extended attributes allow markup and other content to be used for attributes' values. Extended attributes would present opportunities for expanding on a [document object model](https://en.wikipedia.org/wiki/Document_Object_Model).
+
+## Representing Workflows
+
+Coming soon.
