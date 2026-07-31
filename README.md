@@ -33,4 +33,4 @@ Expanding on some XAML/XOML concepts, envisioning a related knowledge-representa
 </rectangle>
 ```
 
-This format sketch, with _extended attributes_, would present opportunities for a new document object model atop the [DOM](https://en.wikipedia.org/wiki/Document_Object_Model).
+Above, the attribute `x:attribute` signals that a child element is an _extended attribute_ of its parent element. Extended attributes would present opportunities for expanding on the [document object model](https://en.wikipedia.org/wiki/Document_Object_Model).
