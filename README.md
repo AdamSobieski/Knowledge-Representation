@@ -58,7 +58,7 @@ The following example sketch intends to show that one could readily represent wo
 ```xml
 <sequence xmlns="using:sequence" xmlns:x="http://tbd.org/2026/next">
   <codeactivity x:name="start-activity" xmlns="using:codeactivity">
-    <execute x:attribute="true" next:type="text/javascript" next:select="onStart">
+    <execute x:attribute="true" x:type="text/javascript" x:select="onStart">
       <![CDATA[
          function onStart(ctx)
          {
