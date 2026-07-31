@@ -53,4 +53,23 @@ Above, the `x:attribute` attribute signals that a child element is an _extended 
 
 ## Representing Workflows
 
-Coming soon.
+The following example sketch intends to show that one could readily represent workflows with markup supporting extended attributes and an expressiveness for inline JavaScript.
+
+```xml
+<sequence xmlns="using:sequence" xmlns:x="http://tbd.org/2026/next">
+  <codeactivity x:name="start-activity" xmlns="using:codeactivity">
+    <executecode x:attribute="true" next:type="text/javascript" next:select="onStart">
+      <![CDATA[
+         function onStart(ctx)
+         {
+            ...
+         }
+      ]]>
+    </executecode>
+  <codeactivity>
+  <codeactivity x:name="process-activity" xmlns="using:codeactivity">
+    <executecode x:attribute="true" x:type="text/javascript" x:select="onProcess" x:src="workflow-123.js" />
+  </codeactivity>
+  <codeactivity x:name="end-activity" executecode="javascript:onEnd" xmlns="using:codeactivity" />
+</sequence>
+```
