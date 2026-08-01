@@ -58,7 +58,8 @@ The following example sketch intends to show that one could readily represent wo
 ```xml
 <sequence xmlns="using:sequence" xmlns:x="http://tbd.org/2026/next">
   <x:class x:attribute="true" x:type="text/javascript" x:select="sequence" x:src="workflow.js" />
-  <codeactivity x:name="start-activity" xmlns="using:codeactivity">
+  <code x:name="start-activity" xmlns="using:code">
+    <x:class x:attribute="true" x:type="text/javascript" x:select="code" x:src="workflow.js" />
     <execute x:attribute="true" x:type="text/javascript" x:select="onStart">
       <![CDATA[
          function onStart(ctx)
@@ -66,19 +67,22 @@ The following example sketch intends to show that one could readily represent wo
             ...
          }
       ]]>
-    </executecode>
-  <codeactivity>
-  <codeactivity x:name="process-activity" xmlns="using:codeactivity">
+    </execute>
+  </code>
+  <code x:name="process-activity" xmlns="using:code">
+    <x:class x:attribute="true" x:type="text/javascript" x:select="code" x:src="workflow.js" />
     <execute x:attribute="true" x:type="text/javascript" x:select="onProcess" x:src="custom.js" />
-  </codeactivity>
-  <codeactivity x:name="end-activity" execute="javascript:onEnd" xmlns="using:codeactivity" />
+  </code>
+  <code x:name="end-activity" execute="javascript:onEnd" xmlns="using:code">
+    <x:class x:attribute="true" x:type="text/javascript" x:select="code" x:src="workflow.js" />
+  </code>
 </sequence>
 ```
 
 ## XML Inclusions
 
-Coming soon.
+Using [XML inclusions](https://www.w3.org/TR/xinclude-11/), repeated patterns in markup can be succinctly replaced by `x:include` elements which are processed and subsequently replaced by the markup that they reference. More coming soon.
 
 ## Parameterized Templates
 
-Coming soon.
+More coming soon.
