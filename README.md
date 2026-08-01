@@ -49,7 +49,7 @@ Expanding on some XAML/XOML concepts, envisioning a related knowledge-representa
 </rectangle>
 ```
 
-Above, the `x:attribute` attribute signals that a child element is an _extended attribute_ of its parent element. While simple attributes allow only text-string values, extended attributes allow markup and other content to be used for attributes' values. Extended attributes would present opportunities for expanding on a [document object model](https://en.wikipedia.org/wiki/Document_Object_Model).
+Above, the `x:attribute` attribute signals that a child element is an _extended attribute_ of its parent element. While simple attributes allow only text-string values, extended attributes allow markup and other content to be used for attributes' values. Extended attributes would present opportunities for expanding on [object models](https://en.wikipedia.org/wiki/Document_Object_Model).
 
 ## Representing Workflows
 
@@ -81,7 +81,7 @@ The following example sketch intends to show that one could readily represent wo
 
 ## XML Inclusions
 
-Using [XML inclusions](https://en.wikipedia.org/wiki/XInclude), repeated patterns in markup can be succinctly replaced by `<xi:include>` elements which are processed and subsequently replaced by the content that they reference. More coming soon.
+Using [XML inclusions](https://en.wikipedia.org/wiki/XInclude), repeated patterns in markup could be succinctly replaced by `<xi:include>` elements which are processed and subsequently replaced by the content that they reference. More coming soon.
 
 ## Parameterized Templates
 
