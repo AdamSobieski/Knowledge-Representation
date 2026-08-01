@@ -81,7 +81,7 @@ The following example sketch intends to show that one could readily represent wo
 
 ## XML Inclusions
 
-Using [XML inclusions](https://www.w3.org/TR/xinclude-11/), repeated patterns in markup can be succinctly replaced by `x:include` elements which are processed and subsequently replaced by the markup that they reference. More coming soon.
+Using [XML inclusions](https://www.w3.org/TR/xinclude-11/), repeated patterns in markup can be succinctly replaced by `xi:include` elements which are processed and subsequently replaced by the markup that they reference. More coming soon.
 
 ## Parameterized Templates
 
