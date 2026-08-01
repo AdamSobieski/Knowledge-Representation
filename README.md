@@ -53,7 +53,7 @@ Above, the `x:attribute` attribute signals that a child element is an _extended 
 
 ## Representing Workflows
 
-The following example sketch intends to show that one could readily represent workflows with markup supporting extended attributes and an expressiveness for inline JavaScript.
+The following example sketch intends to show that one could readily represent workflows using markup supporting extended attributes and an expressiveness for inline JavaScript.
 
 ```xml
 <sequence xmlns="using:sequence" xmlns:x="http://tbd.org/2026/next">
