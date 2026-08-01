@@ -57,9 +57,9 @@ The following example sketch intends to show that one could readily represent wo
 
 ```xml
 <sequence xmlns="using:sequence" xmlns:x="http://tbd.org/2026/next">
-  <x:class x:attribute="true" x:type="text/javascript" x:select="sequence" x:src="workflow.js" />
+  <x:class x:attribute="true" x:select="sequence" x:src="workflow.js" />
   <code x:name="start-activity" xmlns="using:code">
-    <x:class x:attribute="true" x:type="text/javascript" x:select="code" x:src="workflow.js" />
+    <x:class x:attribute="true" x:select="code" x:src="workflow.js" />
     <execute x:attribute="true" x:type="text/javascript" x:select="onStart">
       <![CDATA[
          function onStart(ctx)
@@ -70,11 +70,11 @@ The following example sketch intends to show that one could readily represent wo
     </execute>
   </code>
   <code x:name="process-activity" xmlns="using:code">
-    <x:class x:attribute="true" x:type="text/javascript" x:select="code" x:src="workflow.js" />
-    <execute x:attribute="true" x:type="text/javascript" x:select="onProcess" x:src="custom.js" />
+    <x:class x:attribute="true" x:select="code" x:src="workflow.js" />
+    <execute x:attribute="true" x:select="onProcess" x:src="custom.js" />
   </code>
   <code x:name="end-activity" execute="javascript:onEnd" xmlns="using:code">
-    <x:class x:attribute="true" x:type="text/javascript" x:select="code" x:src="workflow.js" />
+    <x:class x:attribute="true" x:select="code" x:src="workflow.js" />
   </code>
 </sequence>
 ```
