@@ -6,7 +6,7 @@ Drawing inspiration from previous general-purpose knowledge-representation forma
 
 ## Quick Examples
 
-Expanding on some XAML/XOML concepts, envisioning a related knowledge-representation technology which binds to [JavaScript](https://en.wikipedia.org/wiki/JavaScript) while interoperable with [Web Components](https://en.wikipedia.org/wiki/Web_Components), the [Shadow DOM](https://en.wikipedia.org/wiki/Shadow_DOM), and [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly), the following quick examples showcase a number of markup-related possibilities.
+Expanding on some XAML/XOML concepts, envisioning a related knowledge-representation technology which uses [JavaScript](https://en.wikipedia.org/wiki/JavaScript) for code-behind features while interoperable with [Web Components](https://en.wikipedia.org/wiki/Web_Components), the [Shadow DOM](https://en.wikipedia.org/wiki/Shadow_DOM), and [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly), the following quick examples showcase a number of markup-related possibilities.
 
 ```xml
 <resource xmlns="http://tbd.org/2026/next" xmlns:x="http://tbd.org/2026/next">
