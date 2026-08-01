@@ -57,6 +57,7 @@ The following example sketch intends to show that one could readily represent wo
 
 ```xml
 <sequence xmlns="using:sequence" xmlns:x="http://tbd.org/2026/next">
+  <x:class x:attribute="true" x:type="text/javascript" x:select="sequence" x:src="workflow.js" />
   <codeactivity x:name="start-activity" xmlns="using:codeactivity">
     <execute x:attribute="true" x:type="text/javascript" x:select="onStart">
       <![CDATA[
@@ -68,7 +69,7 @@ The following example sketch intends to show that one could readily represent wo
     </executecode>
   <codeactivity>
   <codeactivity x:name="process-activity" xmlns="using:codeactivity">
-    <execute x:attribute="true" x:type="text/javascript" x:select="onProcess" x:src="workflow.js" />
+    <execute x:attribute="true" x:type="text/javascript" x:select="onProcess" x:src="custom.js" />
   </codeactivity>
   <codeactivity x:name="end-activity" execute="javascript:onEnd" xmlns="using:codeactivity" />
 </sequence>
