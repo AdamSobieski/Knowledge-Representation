@@ -1,6 +1,6 @@
 This repository is a staging area for innovation, discussion, and building consensus towards advancing existing knowledge-representation formats and proposing new such formats.
 
-| # | Discussion Thread |
+| | Discussion Thread |
 |------:|-----------------------|
 | 1 | <br>[**XHTML Custom Elements**](https://github.com/AdamSobieski/Web/discussions/1)<br>Brainstorming about Web Components and custom elements, instead of HTML custom elements requiring hyphens in their tag names, XHTML custom elements could make use of XML namespaces.<br><br> |
 | 2 | <br>[**Web Object Modeling Language (WOML)**](https://github.com/AdamSobieski/Web/discussions/2)<br>Brainstorming about some XAML/XOML concepts, envisioning a related knowledge-representation technology that utilizes JavaScript for code-behind features while also being interoperable with Web Components, the Shadow DOM, and WebAssembly...<br><br> |
