@@ -9,4 +9,4 @@ This repository is a staging area for innovation, discussion, and building conse
 | 5 | <br>[**Multipart MIME**](https://github.com/AdamSobieski/Web/discussions/5)<br>By providing and making use of a metadata part, multipart MIME messages could be used for representing knowledge, argumentation, and other kinds of data intended for interchange between software applications and systems.<br><br> |
 | 6 | <br>[**Prefixed S-expressions**](https://github.com/AdamSobieski/Web/discussions/6)<br>Brainstorming, attempting to expand upon the beauty and elegance of programming languages resembling Lisp, Scheme, and Clojure, what if S-expressions could be prefixed with symbols like `#` and `@` to distinguish them with respect to their modes, axes, and functionalities, thus increasing overall expressiveness and, interestingly, providing for simple, recursive object models?<br><br> |
 
-To view and participate in the discussions, please visit the [discussion area](https://github.com/AdamSobieski/Web/discussions).
+To view and participate in these discussions, please visit the [discussion area](https://github.com/AdamSobieski/Web/discussions).
